@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sertificate"
+    tools:context=".GetMeActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/cookie"
+        android:gravity="center"
+        android:lineSpacingExtra="20sp"
+        android:text="@string/getname"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instansi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="-5dp"
+        android:gravity="center"
+        android:text="@string/getinstansi"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/nisn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instansi"
+        android:gravity="center"
+        android:layout_marginStart="45dp"
+        android:text="@string/getnisn"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nisn"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/getdate"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

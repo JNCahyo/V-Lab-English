@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText,LabelFor,UselessParent,ContentDescription">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/avatar" />
+
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#496BDA"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Username"
+            android:layout_marginLeft="@dimen/margin_login_left"
+            android:layout_marginRight="@dimen/margin_login_right"
+            android:inputType="textPersonName"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/txtinstansi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#496BDA"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Instansi"
+            android:layout_marginLeft="@dimen/margin_login_left"
+            android:layout_marginRight="@dimen/margin_login_right"
+            android:inputType="textPersonName"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/txtnisn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#496BDA"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="NISN"
+            android:layout_marginLeft="@dimen/margin_login_left"
+            android:layout_marginRight="@dimen/margin_login_right"
+            android:inputType="numberSigned"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <ImageButton
+            android:id="@+id/image_Submite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#00000000"
+            android:src="@drawable/button_submite" />
+    </LinearLayout>
+
+</RelativeLayout>
